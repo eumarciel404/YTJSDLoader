@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.video-container {
+    padding: 25px;
+    display: flex;
+    gap: 5px;
+    cursor: default;
+    width: 523px;
+}
+
+.channel-name-verified {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.channel-name-verified h5 {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.thumbnail-video {
+    width: 168px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.thumbnail-container {
+    position: relative;
+}
+
+.time-thumb-video {
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    margin: 0 5px 10px 0;
+    padding: 2px;
+    right: 0;
+    border-radius: 5px;
+}
+
+.information-video {
+    max-width: 300px;
+}
+
+.title-video {
+    margin: 0 0 4px 0;
+    line-height: 1.5rem;
+    font-weight: small;
+    overflow: hidden;
+    display: block;
+    max-height: 100%;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.videos-container {
+    display: flex;
+    column-gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
